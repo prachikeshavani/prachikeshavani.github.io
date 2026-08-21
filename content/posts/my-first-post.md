@@ -1,16 +1,9 @@
 +++
-title = "My First Post"
+title = "Hello world"
 date = 2025-01-01
-draft = false
+categories = ["note"]
 tags = ["hello"]
+draft = false
 +++
 
-This is my first post on my new Hugo website, hosted on GitHub Pages.
-
-I can write in **Markdown**, include code:
-
-```python
-print("Hello, world!")
-```
-
-And much more. Stay tuned!
+This is the first entry on my new personal feed, built with Hugo and hosted on GitHub Pages. 👋

@@ -1,66 +1,31 @@
 baseURL = "https://prachi-keshavani.github.io/"
-title = "Prachi Keshavani"
-theme = "PaperMod"
-
 locale = "en-us"
-paginate = 5
+title = "Prachi Keshavani"
+theme = "neofeed"
 
-enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
-buildExpired = false
+# How many feed entries to load at once
+pagination.pagerSize = 6
 
-[minify]
-  disableXML = true
-  minifyOutput = true
+[taxonomies]
+tag = "tags"
+
+[params.author]
+name = "Prachi Keshavani"
+# Profile image: external link or file in static/ (e.g. "image/me.webp")
+image = ""
+about = "Hi, I'm Prachi! Welcome to my personal feed."
 
 [params]
-  env = "production"
-  author = "Prachi Keshavani"
-  description = "Prachi Keshavani's personal website"
-  defaultTheme = "auto"       # auto, light, dark
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
-  ShowToc = true
-  TocOpen = false
+# Skin options: "macintosh", "minimal", "cloudy-day"
+# (or your own .css file placed in static/skins/)
+skin = "macintosh"
+githubuser = "prachi-keshavani"
+# mastodon = "https://mastodon.social/@yourhandle"
+# twitteruser = "yourhandle"
 
-  homeInfoParams = { Title = "Hi, I'm Prachi 👋", Content = "Welcome to my personal website." }
-
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/prachi-keshavani"
-
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://linkedin.com/in/prachikeshavani"
+[permalinks]
+# Format for feed entry links
+posts = "/:title/"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
-
-[[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts/"
-  weight = 10
-
-[[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 20
-
-[[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
-  weight = 30
-
-[[menu.main]]
-  identifier = "search"
-  name = "Search"
-  url = "/search/"
-  weight = 40
+home = ["HTML", "JSON", "RSS"]
