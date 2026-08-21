@@ -7,6 +7,7 @@ enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
 languageCode = "en-US"
+timeZone = "Europe/London"
 rssLimit = 10
 summarylength = 20 # 70 (default)
 
