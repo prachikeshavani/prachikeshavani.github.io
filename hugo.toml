@@ -1,4 +1,4 @@
-baseURL = "https://prachikeshavani.github.io/"
+baseURL = "https://prachi-keshavani.github.io/"
 title = "Prachi Keshavani"
 theme = "PaperMod"
 
@@ -32,7 +32,7 @@ buildExpired = false
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/prachikeshavani"
+    url = "https://github.com/prachi-keshavani"
 
   [[params.socialIcons]]
     name = "linkedin"
