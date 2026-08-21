@@ -1,5 +1,5 @@
 title = "Prachi Keshavani"
-baseurl = "https://prachi-keshavani.github.io/"
+baseurl = "https://prachikeshavani.github.io/"
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]

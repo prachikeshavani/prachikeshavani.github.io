@@ -11,7 +11,7 @@ math = false # false (default) or true
 mathEngine = "KaTeX" # "KaTeX" (default) or "MathJax"
 
 [social]
-  github = "prachi-keshavani"
+  github = "prachikeshavani"
 
 # Doks (@thulite/doks-core)
 [doks]
@@ -80,7 +80,7 @@ mathEngine = "KaTeX" # "KaTeX" (default) or "MathJax"
   editPage = false # false (default) or true
   lastMod = false # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/prachi-keshavani/prachi-keshavani.github.io"
+  docsRepo = "https://github.com/prachikeshavani/prachikeshavani.github.io"
   docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 
