@@ -1,0 +1,66 @@
+baseURL = "https://prachikeshavani.github.io/"
+title = "Prachi Keshavani"
+theme = "PaperMod"
+
+locale = "en-us"
+paginate = 5
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  author = "Prachi Keshavani"
+  description = "Prachi Keshavani's personal website"
+  defaultTheme = "auto"       # auto, light, dark
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+  TocOpen = false
+
+  homeInfoParams = { Title = "Hi, I'm Prachi 👋", Content = "Welcome to my personal website." }
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/prachikeshavani"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/prachikeshavani"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 40
