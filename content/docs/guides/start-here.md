@@ -23,7 +23,7 @@ I'm teaching myself **marketing data science** — the art of turning messy camp
 
 ## What I'm up to
 
-- 📊 **Learning marketing mix modeling (MMM)** — because "which ad actually worked?" is a billion-dollar question
+- 📊 **Learning marketing data science** — turning campaign data into answers, from analytics and attribution to marketing mix modeling (MMM)
 - 🐍 **Going from Python zero to Python hero** — one `SyntaxError` at a time
 - 🎬 **Building in public on TikTok & LinkedIn** — if I'm learning it, you're hearing about it
 - 📝 **Documenting everything here** — my notes, cheatsheets, and "oh THAT'S how it works" moments
