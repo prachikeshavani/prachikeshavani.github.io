@@ -21,7 +21,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Hugo
@@ -30,8 +29,17 @@ jobs:
           hugo-version: "latest"
           extended: true
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
       - name: Build
-        run: hugo --minify
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
