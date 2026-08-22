@@ -12,3 +12,5 @@ params:
     canonical: ""
     robots: ""
 ---
+
+No entries yet — first one coming soon! 🐉

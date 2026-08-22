@@ -34,7 +34,7 @@ Because the best way to learn something is to explain it, and the best way to ge
 
 ## Start exploring
 
-- **[Blog](/blog/)** — what I'm learning this week
+- **[Projects](/projects/)** — things I'm building while learning
 - **[Guides](/docs/guides/)** — notes and cheatsheets from my learning hub
 
 Stick around — the dragon's just getting warmed up. 🔥
