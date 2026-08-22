@@ -13,4 +13,4 @@ params:
     robots: ""
 ---
 
-No entries yet — first one coming soon! 🐉
+
