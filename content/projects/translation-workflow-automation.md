@@ -219,14 +219,6 @@ translation quality, SEO rankings or revenue, and I have no evidence it
 did. What it did was give the team a working day back every week and
 make month-end reporting bearable.
 
-## What I would build next
-
-Persistent run state and idempotent retries instead of duplicate
-suffixes, status polling to replace the fixed wait for XTM cost
-generation, automated tests around mappings and business rules,
-proactive failure notifications, a proper runbook with a backup
-administrator, and centralised language configuration.
-
 ## Stack
 
 Python (REST APIs) · Wrike API · XTM API · Azure DevOps · managed
